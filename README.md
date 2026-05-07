@@ -7,6 +7,8 @@ Statischer Export der finalen Website fuer `Hotel Diemelsee`.
 - finale HTML-Seiten im Repo-Root
 - `assets/` fuer Bilder und sonstige statische Assets
 - `docs/` fuer die projektspezifischen PDF-Unterlagen
+- `404.html` fuer die eigene Fehlerseite
+- `robots.txt` und `sitemap.xml` fuer Crawl-Hinweise
 - `_headers` fuer Cloudflare Pages Header-Regeln
 - `_redirects` fuer Cloudflare Pages Redirect-Regeln
 
