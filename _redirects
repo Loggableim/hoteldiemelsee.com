@@ -1,6 +1,3 @@
 # Redirect old paths to new structure
-/website-variant-a/* /index.html 301
-/website-variant-b/* /index.html 301
-
-# SPA fallback (not needed for static site but good practice)
-/* /index.html 404
+/website-variant-a/* / 301
+/website-variant-b/* / 301
