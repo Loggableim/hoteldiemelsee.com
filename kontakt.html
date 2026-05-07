@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt &amp; Interesse – Hotel Diemelsee</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">Hotel Diemelsee</a>
+      <button class="nav-toggle" aria-label="Menü öffnen" onclick="document.querySelector('.primary-nav').classList.toggle('open')">☰</button>
+      <nav class="primary-nav" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="projekt.html">Projekt</a>
+        <a href="markt.html">Markt</a>
+        <a href="finanzierung.html">Finanzierung</a>
+        <a href="betrieb.html">Betrieb</a>
+        <a href="dokumente.html">Dokumente</a>
+        <a href="kontakt.html" class="active">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Kontakt &amp; Interesse</h1>
+        <p class="subtitle">Investoren, Banken, Fördermittelgeber und Partner – wir freuen uns auf den Austausch.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projektinformationen</h2>
+        </div>
+        <div class="grid-two">
+          <div class="content-block">
+            <h3>Hotel Diemelsee – Kapselhotel-Pilot</h3>
+            <p>Das Hotel Diemelsee plant den Aufbau eines modernen Kapselhotels als Pilotprojekt am Diemelsee. Mit 12 Schlafkapseln wird ein kompaktes, effizientes Beherbergungskonzept realisiert, das auf den wachsenden Bedarf an bezahlbaren Übernachtungsmöglichkeiten in der Region reagiert.</p>
+            <ul>
+              <li><strong>Standort:</strong> Diemelsee, Hessen</li>
+              <li><strong>Konzept:</strong> Kapselhotel-Pilot mit 12 Kapseln</li>
+              <li><strong>Kapitalbedarf:</strong> 45.000 EUR</li>
+              <li><strong>Inhaber:</strong> Jan Rahnke</li>
+              <li><strong>Status:</strong> Finanzierungsphase</li>
+            </ul>
+          </div>
+          <div class="contact-box">
+            <h3>Ansprechpartner</h3>
+            <div class="contact-row">
+              <span>Hotel</span>
+              <strong>Hotel Diemelsee</strong>
+            </div>
+            <div class="contact-row">
+              <span>Inhaber</span>
+              <strong>Jan Rahnke</strong>
+            </div>
+            <div class="contact-row">
+              <span>Website</span>
+              <strong><a href="https://hoteldiemelsee.com" target="_blank" rel="noopener">hoteldiemelsee.com</a></strong>
+            </div>
+            <div class="contact-row">
+              <span>Status</span>
+              <strong>Finanzierungsphase</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Interesse vormerken</h2>
+          <p>Hinterlassen Sie uns Ihre Daten – wir melden uns zeitnah bei Ihnen.</p>
+        </div>
+        <div class="form-card">
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Vor- und Nachname" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-Mail <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="ihre@email.de" />
+            </div>
+            <div class="form-group">
+              <label for="company">Firma / Organisation</label>
+              <input type="text" id="company" name="company" placeholder="Firmenname (optional)" />
+            </div>
+            <div class="form-group">
+              <label for="role">Rolle</label>
+              <select id="role" name="role">
+                <option value="">Bitte wählen</option>
+                <option value="investor">Investor</option>
+                <option value="bank">Bank / Fördermittelgeber</option>
+                <option value="partner">Partner</option>
+                <option value="berater">Berater</option>
+                <option value="sonstiges">Sonstiges</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="5" placeholder="Ihre Nachricht oder Ihr Interesse am Projekt"></textarea>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="newsletter" value="yes" />
+                Ich möchte über den Projektfortschritt informiert werden
+              </label>
+            </div>
+            <button type="submit" class="button">Interesse vormerken</button>
+            <p class="note">Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Häufige Fragen</h2>
+        </div>
+        <div class="content-block">
+          <h3>Wie hoch ist der Kapitalbedarf?</h3>
+          <p>45.000 EUR für 12 Kapseln inkl. Umbau, Brandschutz und Ausstattung.</p>
+        </div>
+        <div class="content-block">
+          <h3>Wann ist der Break-even?</h3>
+          <p>Bei ca. 15 % Auslastung im Base Case.</p>
+        </div>
+        <div class="content-block">
+          <h3>Welche Finanzierungsoptionen gibt es?</h3>
+          <p>WIBank Hessen-Mikrodarlehen, KfW ERP-StartGeld, Hausbank mit Bürgschaftsbank.</p>
+        </div>
+        <div class="content-block">
+          <h3>Ist das Projekt genehmigt?</h3>
+          <p>Noch nicht. Nutzungsänderung und Brandschutz werden vor dem Umbau geklärt.</p>
+        </div>
+        <div class="content-block">
+          <h3>Wer betreibt das Hotel?</h3>
+          <p>Jan Rahnke als inhabergefuehrter Pilotbetrieb.</p>
+        </div>
+        <div class="content-block">
+          <h3>Wann startet der Betrieb?</h3>
+          <p>Nach Genehmigung, Finanzierung und Umbau. Aktuell befindet sich das Projekt in der Vorbereitungsphase.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-inner">
+          <h2>Dokumente herunterladen</h2>
+          <p>Businessplan, Finanzplanung und weitere Unterlagen finden Sie in unserer Dokumentenübersicht.</p>
+          <div>
+            <a href="finanzierung.html" class="button">Finanzierung ansehen</a>
+            <a href="dokumente.html" class="button button-outline">Dokumente herunterladen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Hotel Diemelsee – Jan Rahnke. <a href="kontakt.html">Kontakt</a> · <a href="dokumente.html">Dokumente</a> · <a href="finanzierung.html">Finanzierung</a></p>
+    </div>
+  </footer>
+</body>
+</html>
